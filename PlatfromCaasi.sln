@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlatfromCaasi", "PlatfromCaasi\PlatfromCaasi.vcxproj", "{74F63500-9FA3-4167-B24B-31CF4A70E5C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapCreator", "MapCreator\MapCreator.vcxproj", "{18BD309C-5D6B-42CF-A80F-015126E48FDB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{4F11EE85-7F6A-4BB0-B748-65D9B02D8319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Debug|x64.ActiveCfg = Release|x64
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Debug|x64.Build.0 = Release|x64
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Debug|x86.Build.0 = Debug|Win32
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Release|x64.ActiveCfg = Release|x64
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Release|x64.Build.0 = Release|x64
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Release|x86.ActiveCfg = Release|Win32
+		{74F63500-9FA3-4167-B24B-31CF4A70E5C1}.Release|x86.Build.0 = Release|Win32
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Debug|x64.ActiveCfg = Debug|x64
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Debug|x64.Build.0 = Debug|x64
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Debug|x86.Build.0 = Debug|Win32
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Release|x64.ActiveCfg = Release|x64
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Release|x86.ActiveCfg = Release|Win32
+		{18BD309C-5D6B-42CF-A80F-015126E48FDB}.Release|x86.Build.0 = Release|Win32
+		{4F11EE85-7F6A-4BB0-B748-65D9B02D8319}.Debug|x64.ActiveCfg = Debug
+		{4F11EE85-7F6A-4BB0-B748-65D9B02D8319}.Debug|x86.ActiveCfg = Debug
+		{4F11EE85-7F6A-4BB0-B748-65D9B02D8319}.Release|x64.ActiveCfg = Release
+		{4F11EE85-7F6A-4BB0-B748-65D9B02D8319}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {843A4187-F21A-4094-A850-36C7048CF3A6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="platfrom::Platfrom">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIAAEAAwgAQgAAAAAAARAEAAAAIAAAACFAAAAQAAA=</HashCode>
+      <FileName>PlatfromCaasi\Platfrom.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_sequencer" />
+      <Field Name="_inputs" />
+      <Field Name="_config" />
+      <Field Name="_texture" />
+      <Field Name="_eventLogger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="platfrom::logic::AchievedLevels" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACASIAAAAAAAAIAAAAIAEAAAAIAAAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\AchievedLevels.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::hmi::Config" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAgSAgAAAAAAAAAIQCAAAQAAIAAAAAAABAAA=</HashCode>
+      <FileName>PlatfromCaasi\HMI\Config.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::hmi::Inputs" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAECBAgCIAACIASAAAgAAmBCGBAICQnpAiAAkgoA4AE=</HashCode>
+      <FileName>PlatfromCaasi\HMI\Inputs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::hmi::Sequencer" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIIgAAQAAAAAAAAAAAUACABAAAACAACwEAAQA=</HashCode>
+      <FileName>PlatfromCaasi\HMI\Sequencer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_achievedLevels" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="platfrom::hmi::Texture" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQSAwABIAAAAAAIAABAAAAAEEAIUAAEgUgA=</HashCode>
+      <FileName>PlatfromCaasi\HMI\Textures.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="utils::EventLogger" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AARAAAQCAAAAAAAAAAABwQIAAAwAAAAAAAFAAAIABAA=</HashCode>
+      <FileName>PlatfromCaasi\Utils\EventLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

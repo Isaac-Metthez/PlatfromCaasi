@@ -1,0 +1,229 @@
+Web
+class platfrom::logic::blocks::Block -1000 500 0 
+4
+0 0 10000 0 10000 100 0 100 
+1
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 0 50 1 
+4
+-50 0 3000 0 3000 20 -50 20 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 150 50 3 
+4
+0 0 20 0 20 -180 0 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 300 50 3 
+4
+0 0 20 0 20 -180 0 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 320 50 5 
+4
+0 0 580 0 580 -2000 0 -2000 
+1
+class platfrom::logic::blocks::decorators::Web 
+
+class platfrom::logic::blocks::Block 1000 50 3 
+4
+0 0 100 0 100 -180 0 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 1100 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1120 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1140 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1160 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1180 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1200 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1220 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1240 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1260 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1280 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1300 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1320 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1340 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1360 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1380 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1400 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1420 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1440 50 3 
+3
+0 0 20 0 10 -30 
+2
+class platfrom::logic::blocks::decorators::Simple 
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 1700 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 1700 -300 3 
+4
+-20 0 20 0 20 10 -20 10 
+1
+class platfrom::logic::blocks::decorators::OneWay 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::FireBall 1700 -400 
+
+class platfrom::logic::mobs::SimpleMob 1 1800 0 
+
+class platfrom::logic::mobs::SimpleMob 1 1850 0 
+
+class platfrom::logic::mobs::SimpleMob 1 1900 0 
+
+class platfrom::logic::mobs::SimpleMob 1 1950 0 
+
+class platfrom::logic::mobs::SimpleMob 1 2000 0 
+
+class platfrom::logic::blocks::Block 2000 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 1980 -130 0 
+4
+-10 0 0 0 0 -10 -10 -10 
+0
+
+class platfrom::logic::blocks::Block 2020 -130 0 
+4
+10 0 0 0 0 -10 10 -10 
+0
+
+class platfrom::logic::mobs::SimpleMob 0 2000 -130 
+
+class platfrom::logic::blocks::Block 2500 50 6 
+4
+0 0 20 0 20 -100 0 -100 
+1
+class platfrom::logic::blocks::decorators::Finish 
+

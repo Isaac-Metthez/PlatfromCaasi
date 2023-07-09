@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PlatfromCaasi">
+      <UniqueIdentifier>{8504c445-5abb-4064-aa0d-18e62257fb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlatfromCaasi">
+      <UniqueIdentifier>{ec97b25b-53c9-4bd4-9d08-7c4d05af3116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlatfromCaasi\Logic">
+      <UniqueIdentifier>{f388550b-5485-4032-801f-7fe77c581b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlatfromCaasi\HMI">
+      <UniqueIdentifier>{b722e4be-80b8-4d8e-aca2-a6d8dadc5a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlatfromCaasi\HMI">
+      <UniqueIdentifier>{d0abd0e7-338f-4040-ad56-9b10b630de35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlatfromCaasi\Serialize">
+      <UniqueIdentifier>{4750c7c4-d0f8-4d4e-909e-5e90245d10ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlatfromCaasi\Serialize">
+      <UniqueIdentifier>{840272be-45ba-483c-9c9e-c709f249e4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlatfromCaasi\Logic">
+      <UniqueIdentifier>{398b2a68-83bc-4a76-ad8c-a0fb76138eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlatfromCaasi\Utils">
+      <UniqueIdentifier>{769fbbda-734d-4e9c-b8a9-16c5ab94a9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlatfromCaasi\Utils">
+      <UniqueIdentifier>{0d18685b-8621-4e5d-8b39-a6ec988414ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\HMI\Sequencer.cpp">
+      <Filter>Source Files\PlatfromCaasi\HMI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\HMI\Inputs.cpp">
+      <Filter>Source Files\PlatfromCaasi\HMI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\HMI\Config.cpp">
+      <Filter>Source Files\PlatfromCaasi\HMI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\Physics.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\Mobs.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\HitBox.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\Entity.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\Character.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\Blocks.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\BlockDecorators.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\PersonifiedEntity.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\FireBall.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Platfrom.cpp">
+      <Filter>Source Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Serialize\Serializable.cpp">
+      <Filter>Source Files\PlatfromCaasi\Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Utils\EventLogger.cpp">
+      <Filter>Source Files\PlatfromCaasi\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\Logic\AchievedLevels.cpp">
+      <Filter>Source Files\PlatfromCaasi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatfromCaasi\HMI\Textures.cpp">
+      <Filter>Source Files\PlatfromCaasi\HMI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlatfromCaasi\Platfrom.h">
+      <Filter>Header Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\HMI\Config.h">
+      <Filter>Header Files\PlatfromCaasi\HMI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\HMI\Inputs.h">
+      <Filter>Header Files\PlatfromCaasi\HMI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\HMI\Sequencer.h">
+      <Filter>Header Files\PlatfromCaasi\HMI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Blocks.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Character.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Entity.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\HitBox.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Mobs.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Physics.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\BlockDecorators.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\PersonifiedEntity.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\Portable.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\FireBall.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Serialize\Serializable.h">
+      <Filter>Header Files\PlatfromCaasi\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Serialize\Vector.h">
+      <Filter>Header Files\PlatfromCaasi\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Utils\EventLogger.h">
+      <Filter>Header Files\PlatfromCaasi\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Logic\AchievedLevels.h">
+      <Filter>Header Files\PlatfromCaasi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\HMI\Textures.h">
+      <Filter>Header Files\PlatfromCaasi\HMI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatfromCaasi\Paths.h">
+      <Filter>Header Files\PlatfromCaasi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HMI.cd" />
+    <None Include="Logic.cd" />
+  </ItemGroup>
+</Project>

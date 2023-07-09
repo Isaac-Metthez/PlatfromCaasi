@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="platfrom::logic::blocks::decorators::Decoration">
+    <Position X="5" Y="3" Width="1.5" />
+    <InheritanceLine Type="serialize::Serializable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.5" Y="1.496" />
+        <Point X="5.75" Y="1.496" />
+        <Point X="5.75" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAIEAAAQAAAAAAABAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Simple" Collapsed="true">
+    <Position X="1.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::OneWay" Collapsed="true">
+    <Position X="1.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Bouncing" Collapsed="true">
+    <Position X="1.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Moving" Collapsed="true">
+    <Position X="1.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAIAAAAAAgAAIAAEAQAAAAAAABAAAAAAIAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Ice" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Web" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Lader" Collapsed="true">
+    <Position X="1.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEABAAAQAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Hurting" Collapsed="true">
+    <Position X="1.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::decorators::Finish" Collapsed="true">
+    <Position X="1.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\BlockDecorators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::blocks::Block">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAACAAAAAAAAAIAAAQAAAAQAIAAAAAAAAAEE=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Blocks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::Character">
+    <Position X="24.75" Y="12.75" Width="1.5" />
+    <InheritanceLine Type="platfrom::logic::PersonifiedEntity" FixedToPoint="true">
+      <Path>
+        <Point X="21.25" Y="11.549" />
+        <Point X="21.25" Y="15.313" />
+        <Point X="24.75" Y="15.313" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAECAAGAwAAAgBAAAAKAAAAAAgAAAAIwAAgAglAKEg=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::Entity">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAIASCAAAAAgwFAGgAAAAAAyAIIACIQAAIBgASAEA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Entity.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_hitBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="platfrom::logic::FireBall">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="platfrom::logic::Portable" FixedFromPoint="true">
+      <Path>
+        <Point X="22.5" Y="1.562" />
+        <Point X="21.25" Y="1.562" />
+        <Point X="21.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAggAAAAAIBAQAAAAAAAAQAAgAAAAAEg=</HashCode>
+      <FileName>PlatfromCaasi\Logic\FireBall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::PersonifiedEntity">
+    <Position X="20.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAFAAIAAAAQAABEEAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\PersonifiedEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::Portable" Collapsed="true">
+    <Position X="22.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Portable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::mobs::SimpleMob">
+    <Position X="24.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAIAAAAAAgAAAIAAAgAABASEA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Mobs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::mobs::PortableMob">
+    <Position X="24.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="platfrom::logic::Portable" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="24" Y="1.562" />
+        <Point X="25.5" Y="1.562" />
+        <Point X="25.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAggAAAAAIAAAAAAAAAAAAAAAAAQAAEg=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Mobs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="serialize::Serializable">
+    <Position X="14.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Serialize\Serializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::hitBoxes::HitBox">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAIAAAAAAAQAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\HitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::hitBoxes::SphericalHitBox" Collapsed="true">
+    <Position X="12.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAAAAQAAAAABUoAABAAAAQAAAAACAAAAAAMAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\HitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="platfrom::logic::hitBoxes::ConvexPolygonHitBox" Collapsed="true">
+    <Position X="16.5" Y="14.75" Width="1.5" />
+    <InheritanceLine Type="platfrom::logic::hitBoxes::HitBox" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="16" Y="13.438" />
+        <Point X="17.25" Y="13.438" />
+        <Point X="17.25" Y="14.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIBCBAAQAAAACAAABQIQQAAAAAQAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>PlatfromCaasi\Logic\HitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="platfrom::logic::blocks::matter::matter" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEEAAAAAEAQgg=</HashCode>
+      <FileName>PlatfromCaasi\Logic\Blocks.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

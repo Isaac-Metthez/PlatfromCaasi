@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\PlatfromCaasi">
+      <UniqueIdentifier>{5616ff55-daaf-42c4-ab5e-ee37ae8f9b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\BlockDecorators.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Blocks.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Character.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Config.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Entity.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\FireBall.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\HitBox.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Inputs.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Mobs.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\PersonifiedEntity.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Physics.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Sequencer.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Platfrom.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Serialize\Serializable.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Utils\EventLogger.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\AchievedLevels.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Textures.cpp">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Sequencer.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\BlockDecorators.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Blocks.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Character.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Config.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Entity.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\FireBall.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\HitBox.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Inputs.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Mobs.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\PersonifiedEntity.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Physics.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Platfrom.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\Portable.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Serialize\Serializable.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Serialize\Vector.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Utils\EventLogger.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\Logic\AchievedLevels.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fil_Rouge_Metthez_Isaac\PlatfromCaasi\HMI\Textures.h">
+      <Filter>Resource Files\PlatfromCaasi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

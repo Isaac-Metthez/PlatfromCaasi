@@ -1,0 +1,91 @@
+Walk
+class platfrom::logic::blocks::Block -1000 500 0 
+4
+0 0 10000 0 10000 100 0 100 
+1
+class platfrom::logic::blocks::decorators::Hurting 
+
+class platfrom::logic::blocks::Block 0 50 1 
+4
+-50 0 3000 0 3000 20 -50 20 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 500 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 500 -300 3 
+4
+-20 0 20 0 20 10 -20 10 
+1
+class platfrom::logic::blocks::decorators::OneWay 
+
+class platfrom::logic::blocks::Block 1000 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::FireBall 500 -400 
+
+class platfrom::logic::mobs::SimpleMob 1 550 0 
+
+class platfrom::logic::mobs::SimpleMob 1 600 0 
+
+class platfrom::logic::mobs::SimpleMob 1 650 0 
+
+class platfrom::logic::mobs::SimpleMob 1 700 0 
+
+class platfrom::logic::mobs::SimpleMob 1 750 0 
+
+class platfrom::logic::mobs::SimpleMob 1 800 0 
+
+class platfrom::logic::blocks::Block 1500 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::blocks::Block 2000 50 3 
+4
+-20 0 20 0 20 -180 -20 -180 
+1
+class platfrom::logic::blocks::decorators::Simple 
+
+class platfrom::logic::mobs::PortableMob 1 1550 0 
+
+class platfrom::logic::mobs::PortableMob 1 1600 0 
+
+class platfrom::logic::mobs::PortableMob 1 1650 0 
+
+class platfrom::logic::mobs::PortableMob 1 1700 0 
+
+class platfrom::logic::mobs::PortableMob 1 1750 0 
+
+class platfrom::logic::blocks::Block 2500 50 6 
+4
+0 0 20 0 20 -100 0 -100 
+1
+class platfrom::logic::blocks::decorators::Finish 
+
